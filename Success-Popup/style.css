@@ -1,0 +1,38 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.konten {
+    text-align: center;
+}
+
+.button {
+    padding: 12px 24px;
+    border-radius: 32px;
+    border: none;
+    background: linear-gradient(to bottom, #0074A2, #0085C7);
+    color: white;
+    font-size: 16px;
+}
+
+.button:hover {
+    padding: 12px 24px;
+    border-radius: 32px;
+    border: none;
+    background: linear-gradient(to bottom, #FF5733, #FFC300, #33FF3C);
+    transform: scale(1.1)
+}
+
+.popup {
+    margin: 10% 30%;
+    padding: 24px;
+    background-color: aliceblue;
+    border-radius: 32px;
+    visibility: hidden; 
+}
+
+.open-popup {
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1.1);
+    text-align: center;
+}
