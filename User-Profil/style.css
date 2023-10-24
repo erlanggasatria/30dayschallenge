@@ -1,0 +1,67 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    display: flex;
+    background: #440150;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+section {
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: whitesmoke;
+    padding: 2rem;
+    width: 20rem;
+    margin: 5rem;
+    border-radius: .4rem;
+}
+
+.atas {
+    display: flex;
+    justify-content: space-between;
+
+}
+.heart {
+    margin-right: 10px;
+    cursor: pointer;
+}
+.heart.clicked {
+    content: url("img/heartwhite.png")
+}
+
+.profil {
+    margin: 1rem;
+}
+
+.sosmed {
+    display: flex;
+    justify-content: center;
+}
+
+.atas h2 {
+    font-weight: 700;
+}
+
+button {
+    margin: 1.5rem auto;
+    display: block;
+    border: none;
+    padding: 0.8rem 1.6rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    background: #8a2be2;
+    color: whitesmoke;
+}
+p {
+    margin: 0.5rem;
+}
