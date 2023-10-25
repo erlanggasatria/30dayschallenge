@@ -1,0 +1,73 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: rgb(116, 0, 145);
+}
+
+section {
+    
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+}
+form {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: whitesmoke;
+    padding: 2rem;
+    margin: 5rem 5rem;
+    width: 24rem;
+    border-radius: 1rem;
+    
+    
+
+}
+
+.isian {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+input {
+    padding: 16px 24px;
+    margin: 8px;
+    border-radius: 1rem;
+    border: none;
+    font-size: medium;
+}
+
+textarea {
+    padding: 16px 24px;
+    margin: 8px;
+    border-radius: 1rem;
+    font-size: medium;
+    border: none;
+}
+
+button {
+    padding: 16px 24px;
+    margin: 8px;
+    border-radius: 32px;
+    border: none;
+    font-size: medium;
+    font-weight: 500;
+    border: 1px purple;
+}
+
+button:hover {
+    background: purple;
+    color: white;
+}
+.tulisaan {
+    padding: 1rem;
+}
+p {
+    font-size: small;
+}
