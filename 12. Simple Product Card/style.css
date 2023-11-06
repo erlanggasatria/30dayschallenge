@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(200, 142, 254);
+}
+
+.item-countainer{
+    width: 20rem;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: white;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image{
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+.top-left-logo img{
+    size: 100%;
+}
+.top-right-cart i{
+   width: 100%;
+}
+
+.item-heading{
+    font-size: 1.4rem;
+    margin: 0.5rem 0;
+}
+
+.item-description{
+    font-size: 0.8rem;
+    color: rgb(53, 53, 53);
+}
+.star .fa-solid{
+    padding: 1rem 0;
+    color: orange;
+}
+.item-price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+.btn {
+    width: 100%;
+    padding: 0.6rem;
+    border-radius: 4rem;
+    cursor: pointer;
+    transition: all .3s linear;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+}
+
+.btn:hover{
+    color: white;
+    background-color: orange;
+    transform: scale(1.05);
+    border: none;
+}
