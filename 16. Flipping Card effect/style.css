@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Popins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+}
+main{
+    position: relative;
+    transform-style: preserve-3d; /* Tambahkan property transform-style pada card-container */
+    transition: transform 0.8s; /* Tambahkan efek transisi untuk flip */
+}
+
+.front-card{
+    background-color: purple;
+    color: white;
+    text-align: center;
+    width: 24rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    position: absolute;
+    backface-visibility: hidden
+}
+.front-card:hover {
+    transform: rotateY(180deg);
+}
+
+.back-card{
+    background-color: rgb(2, 0, 128);
+    color: white;
+    text-align: center;
+    width: 24rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    transform: rotateY(180deg);
+    backface-visibility: hidden
+}
+
+img {
+    border-radius: 50%;
+}
+
+main:hover {
+    transform: rotateY(180deg); /* Flip card saat dihover */
+}
+
+button {
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 2rem;
+    font-weight: 500;
+}
+
+
+p {
+    margin: 1rem 0;
+}
+
+h2{
+    margin-top: 1rem;
+}
