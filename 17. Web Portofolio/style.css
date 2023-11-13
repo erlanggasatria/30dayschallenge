@@ -9,7 +9,7 @@
 
 }
 
-header {
+header{
     position: fixed;
     display: flex;
     align-items: center;
@@ -25,12 +25,12 @@ header {
     z-index: 100;
 }
 
-header ul li {
+ul li {
     list-style: none;
     padding: 0 1rem;
 }
 
-header ul {
+ul {
     display: flex;
 }
 
@@ -54,16 +54,19 @@ header ul {
     outline: none;
 }
 
-main {
-
+main, .section-3 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 4rem 4rem;
+    padding: 0 4rem;
+    height: 100vh;
+}
+
+main {
     background-color: #F5FCFF;
 }
 
-img {
+.right {
     max-width: 50%; /* Maksimum lebar adalah 100% dari parent */
     height: auto;
 }
@@ -96,6 +99,7 @@ p {
     font-size: 1.1rem;
     cursor: pointer;
     margin: 0.6rem 0;
+
 }
 
 .section {
@@ -103,8 +107,9 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 4rem 4rem;
+    padding: 4rem;
     background-color: white;
+    margin: 2rem 0;
 }
 
 .section .baris {
@@ -116,10 +121,11 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin: 3rem 0;
 }
 
 .card-1 {
-    padding: 1rem;
+    padding: 1.1rem;
     width: 24%;
     justify-content: space-between;
     background-color: #F5FCFF;
@@ -128,4 +134,86 @@ p {
 
 .baris .card-1 img {
     box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.10);
+}
+
+.card-1 h3 {
+    margin: 1rem 0;
+}
+
+h2 {
+    font-size: 3rem;
+    padding: 1rem 0;
+}
+
+.right-3 {
+    max-height: 100%;
+}
+
+.right-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.porto {
+    width: 28rem;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.10);
+}
+
+.porto .fit {
+    width: 28rem;
+}
+
+.kotak {
+    padding: 1rem 2rem;
+}
+
+.kotak p {
+    margin: 1rem 0;
+}
+
+.rating i {
+    color: rgb(200, 142, 254);
+    margin-bottom: 1rem;
+}
+
+.baris .card-rat {
+    width: 28rem;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 0.8rem;
+}
+
+.profil {
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.profil img {
+    padding-right: 1rem;
+}
+footer{
+    background-color: #F5FCFF;
+    padding: 4rem;
+}
+
+hr{
+    margin: 4rem 0rem;
+    fill: hsl(0, 0%, 0%);
+}
+
+.fut-atas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sosmed i{
+    color: black;
+    font-size: 24px;
+}
+.fa-twitter{
+    font-size: medium;
 }
